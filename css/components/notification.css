@@ -11,6 +11,11 @@
   padding: 2px 5px;
 }
 
+.notification:hover {
+  background-color: #fdfcfc;
+  transition: 0.5s;
+}
+
 .notification-content {
   flex-grow: 1;
   margin-left: 10px;
@@ -37,9 +42,9 @@ a.notification-action {
   margin-right: 10px;
 }
 
-a.notification-action:hover {
+.notification:hover a.notification-action {
   font-size: 14px;
   color: grey;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 1s;
 }
